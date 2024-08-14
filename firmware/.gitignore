@@ -1,0 +1,8 @@
+.DS_Store
+[dD]ebug
+[rR]elease
+.settings
+.launch
+.metadata
+/.project
+/cmake-build-debug
