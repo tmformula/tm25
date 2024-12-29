@@ -90,6 +90,23 @@ int main(void)
   MX_CAN1_Init();
   MX_CAN2_Init();
   /* USER CODE BEGIN 2 */
+  const char logo[] =
+  " _   _ _   _ _____  _       _____  _   _ ___________ _       _   _ _   _ _____ _____ \n"
+  "| | | | | | /  __ \\| |     /  __ \\| \\ | |_   _| ___ \\ |     | | | | \\ | |_   _|_   _|\n"
+  "| | | | |_| | /  \\/| |     | /  \\/|  \\| | | | | |_/ / |     | | | |  \\| | | |   | |  \n"
+  "| | | |  _  | |    | |     | |    | . ` | | | |    /| |     | | | | . ` | | |   | |  \n"
+  "\\ \\_/ / | | | \\__/\\| |____ | \\__/\\| |\\  | | | | |\\ \\| |____ | |_| | |\\  |_| |_  | |  \n"
+  " \\___/\\_| |_/\\____/\\_____/  \\____/\\_| \\_/ \\_/ \\_| \\_\\_____/  \\___/\\_| \\_/\\___/  \\_/  \n";
+
+
+  char msg[256];
+
+  // print version of the code to debug log
+  sprintf(msg, "%s\n--------------\nAuthor: Malcolm Boyes\nCompiler Version: %s\nCompiled On: %s at %s\n--------------\n", logo, __VERSION__, __DATE__, __TIME__);
+  HAL_UART_Transmit(&huart2, (uint8_t *) msg, strlen(msg), HAL_MAX_DELAY);
+
+
+
 
   /* USER CODE END 2 */
 
