@@ -3,8 +3,8 @@ function scene_data = sm_car_scenedata_plane_grid
 % Copyright 2018-2024 The MathWorks, Inc.
 
 scene_data.Name = 'Plane_Grid';
-scene_data.Plane.l = 400;           % m
-scene_data.Plane.w = 400;           % m
+scene_data.Plane.l = 10000;           % m
+scene_data.Plane.w = 10000;           % m
 scene_data.Plane.h = 0.01;          % m
 scene_data.Plane.x = 200;           % m
 scene_data.Plane.y = 0;             % m
