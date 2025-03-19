@@ -62,17 +62,10 @@ if(~isempty(ver('parallel')))
 end
 
 if(open_start_content)
-    %% If this is the top level project, open HTML script
-    % Do not open it if this is a referenced project.
-    this_project = simulinkproject;
-    if(this_project.Information.TopLevel == 1)
-        web('Simscape_Vehicle_Templates_FSAE_Overview.html');
-    end
-
     %% Open app
     %evalin('base','sm_car_vehcfg_run');
 
     %% Open model
-    sm_car
-    sm_car_config_maneuver('sm_car','CRG Hockenheim F')
+    %% sm_car
+    %% sm_car_config_maneuver('sm_car','CRG Hockenheim F')
 end
