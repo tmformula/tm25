@@ -4,8 +4,8 @@
 # MATLAB/Simulink
 *.autosave
 *.slxc
-model/**/work/
-
+models/**/work/
+*.mp4
 
 # Prerequisites
 *.d
