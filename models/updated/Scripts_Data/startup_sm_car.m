@@ -66,6 +66,6 @@ if(open_start_content)
     %evalin('base','sm_car_vehcfg_run');
 
     %% Open model
-    %% sm_car
-    %% sm_car_config_maneuver('sm_car','CRG Hockenheim F')
+    sm_car
+    sm_car_config_maneuver('sm_car','wot braking')
 end
