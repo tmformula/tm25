@@ -1,10 +1,12 @@
 # Dev Environments
 **/.DS_Store
 
-
 # MATLAB/Simulink
 *.autosave
 *.slxc
+models/**/work/
+*.mp4
+*.mldatx
 
 # Prerequisites
 *.d

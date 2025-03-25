@@ -117,7 +117,7 @@ switch maneuver_str
         evalin('base',['Init_data_wot_braking;']);
         evalin('base',['Maneuver_data_wot_braking']);
         set_param(drive_h,'popup_driver_type','Open Loop');
-        set_param(modelname,'StopTime','50');
+        set_param(modelname,'StopTime','25');
         sm_car_config_road(modelname,'Plane Grid');
 end
 

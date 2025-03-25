@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8be0bf3b-224d-4879-b88a-f6f1df784079" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../models/Vehicle.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/o_VcXoVmgyxJO4ifyJ2vw1VTUY8d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/o_VcXoVmgyxJO4ifyJ2vw1VTUY8p.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/2kj09UetkV_lru3gvSPXnY6-nM4d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/2kj09UetkV_lru3gvSPXnY6-nM4p.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/KKyDJtbdIBOlaeHmIZd5VX6vqx8d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/KKyDJtbdIBOlaeHmIZd5VX6vqx8p.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/QWNDYJD5mGW1bWYvPx9DtKnxzw4d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/QWNDYJD5mGW1bWYvPx9DtKnxzw4p.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/R1RggVhA72agIvELiuhWPRS8F0Id.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/R1RggVhA72agIvELiuhWPRS8F0Ip.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/aEHSZBIY-yve10yGis12Zr5DLZod.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/aEHSZBIY-yve10yGis12Zr5DLZop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/j4xwF_j8iFTVayUMfxLgMnTbencd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/j4xwF_j8iFTVayUMfxLgMnTbencp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/r8LR4nLmg9ai3oHrW1r_-KocQzkd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/r8LR4nLmg9ai3oHrW1r_-KocQzkp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/fjRQtWiSIy7hIlj-Kmk87M7s21k/NjSPEMsIuLUyIpr2u1Js5bVPsOsd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/fjRQtWiSIy7hIlj-Kmk87M7s21k/NjSPEMsIuLUyIpr2u1Js5bVPsOsp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/9JKwsp3U0E16wfJepaHWPt5KsTwd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/9JKwsp3U0E16wfJepaHWPt5KsTwp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/KFrrSh9kqgy426YwGI77mjfLWcsd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/KFrrSh9kqgy426YwGI77mjfLWcsp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/root/EEtUlUb-dLAdf0KpMVivaUlztwAp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/root/GiiBklLgTxteCEmomM8RCvWT0nQd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/root/GiiBklLgTxteCEmomM8RCvWT0nQp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/root/fjRQtWiSIy7hIlj-Kmk87M7s21kp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/root/qaw0eS1zuuY1ar9TdPn1GMfrjbQp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/rootp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/resources/project/uuid-8aef9f50-7b1a-44d1-a6c5-6aa9ac6a4e33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/throttle_data.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../models/vehicle.slx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1.4" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2kf6dYFwUnqXDltomJZmCe0RjEW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/boyesm/Projects/tm25-vcu/firmware&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8be0bf3b-224d-4879-b88a-f6f1df784079" name="Changes" comment="" />
+      <created>1723662372962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723662372962</updated>
+      <workItem from="1723662375531" duration="64000" />
+      <workItem from="1724562062685" duration="31000" />
+      <workItem from="1727468702386" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
