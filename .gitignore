@@ -6,6 +6,7 @@
 *.slxc
 models/**/work/
 *.mp4
+*.mldatx
 
 # Prerequisites
 *.d
