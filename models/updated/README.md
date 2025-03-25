@@ -3,12 +3,25 @@
 ## Working with this project
 
 1. Open Vehicle_Controller_Model.prj
-2. Run vehicle_specs.m
-3. Open sm_car.slx
-4. Run simulations
+2. Open sm_car.slx
+3. Run simulations
+
+## General Flow
+
+- Enable Fast Restart Mode
 
 
-## Directories
+### Controller
+
+In the Simulink model, the firmware controller model is contained within the `Controller > Controller Default`
+
+### Events
+
+Acceleration Event
+- This is full throttle for 50s
+
+
+### Directories
 
 **/resources/project**
 - this stored everything related to the project
@@ -25,7 +38,7 @@
 
 
 
-## Changing Vehicle Parameters
+### Changing Vehicle Parameters
 
 Vehicle Parameters are stored in the `Vehicle` structure in MATLAB
 
@@ -33,7 +46,7 @@ To change the parameters of the Vehicle, modify `Scripts_Data/Vehicle_data_dwish
 
 DO NOT MODIFY `Vehicle` IN THE WORKSPACE. All changes could get reset when various events occur.
 
-### Vehicle Parameters Test Data
+#### Vehicle Parameters Test Data
 
 This structure is created when ...
 - not when the Simulink model is loaded
@@ -48,5 +61,5 @@ It is changed when ..
 
 
 
-## Changing Map Parameters
+### Changing Map Parameters
 
