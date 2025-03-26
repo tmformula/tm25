@@ -1,0 +1,7 @@
+{
+    "cortex-debug.armToolchainPath": "/opt/homebrew/bin",
+    "cortex-debug.openocdPath": "/opt/homebrew/bin/openocd",
+    "files.associations": {
+        "usart.h": "c"
+    }
+}
