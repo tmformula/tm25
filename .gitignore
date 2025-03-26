@@ -71,7 +71,7 @@ dkms.conf
 **/Backup
 
 # makefile
-**/build/
+build
 
 # cmake
 /cmake-build-debug
