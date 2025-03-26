@@ -49,7 +49,7 @@ MAXIMUM_CONTINUOUS_MOTOR_CURRENT_A = 100;
 
 
 %% battery pack
-MAXIMUM_PEAK_CURRENT_DRAW_A = 140; % pretty sure this is the actual peak value of our pack
+MAXIMUM_PEAK_CURRENT_DRAW_A = 140; % pretty sure this is the actual peak 
 MAXIMUM_CONTINUOUS_CURRENT_CHARGE_A = 100;  % the amount of current that can be used to charge the battery pack
 
 
