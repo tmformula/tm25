@@ -92,7 +92,7 @@ int main(void)
   MX_ADC2_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-  imu_test();
+  sensor_test();
   /* USER CODE END 2 */
 
   /* Infinite loop */
