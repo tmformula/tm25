@@ -49,6 +49,10 @@ int sensor_test(){
   filterConfig.SlaveStartFilterBank = 14;
   //HAL_CAN_ConfigFilter(&hcan1, &filterConfig);
 
+  if (HAL_CAN_ConfigFilter(&hcan1, &filterConfig) != HAL_OK) {
+      sprintf(msg, "CAN Filter Config Error\r\n");
+      HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+  }
 
   if (HAL_CAN_Start(&hcan1) != HAL_OK) {
       sprintf(msg, "CAN Start Error\r\n");
@@ -60,10 +64,6 @@ int sensor_test(){
       HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
   }
 
-  if (HAL_CAN_ConfigFilter(&hcan1, &filterConfig) != HAL_OK) {
-      sprintf(msg, "CAN Filter Config Error\r\n");
-      HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
-  }
 
 
   while(1){
@@ -82,7 +82,7 @@ int sensor_test(){
       "ADC Value 1: %d\n"
       "ADC Value 2: %d\n"
       "BSE Rear Value: %d\n"
-      "Battery SoC: %f\n"
+      "Battery SoC: % %f\n"
       "Current to Motor Controller (A): %f\n"
       "Steering Wheel Button 1: %d\n"
       "Steering Wheel Button 2: %d\n"
@@ -110,16 +110,14 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
     char msg[512];
 
     if (HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &rxHeader, rxData) != HAL_OK) {
-        // If receiving the message failed, handle the error
         sprintf(msg, "CAN RX Error\r\n");
         HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
         return;
     }
 
-    // Process = message
     if (rxHeader.StdId == 0x355) {
         uint16_t raw_soc = (rxData[0] << 8) | rxData[1];
-        battery_soc = raw_soc / 100.0;
+        battery_soc = raw_soc / 100.0;			//Divides by 100 to show %
     }
 }
 
