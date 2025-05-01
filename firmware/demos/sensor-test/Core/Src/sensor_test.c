@@ -40,9 +40,9 @@ int sensor_test(){
   filterConfig.FilterActivation = CAN_FILTER_ENABLE;
   filterConfig.FilterBank = 0;
   filterConfig.FilterFIFOAssignment = CAN_FILTER_FIFO0;
-  filterConfig.FilterIdHigh = 0x355 << 5;  // SoC ID (0x355), shift 5 for filter format
+  filterConfig.FilterIdHigh = 0x680 << 5;  // SoC ID (0x680)
   filterConfig.FilterIdLow = 0x0000;
-  filterConfig.FilterMaskIdHigh = 0xFFE0;
+  filterConfig.FilterMaskIdHigh = 0x7FF << 5;
   filterConfig.FilterMaskIdLow = 0x0000;
   filterConfig.FilterMode = CAN_FILTERMODE_IDMASK;
   filterConfig.FilterScale = CAN_FILTERSCALE_32BIT;
@@ -115,9 +115,9 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
         return;
     }
 
-    if (rxHeader.StdId == 0x355) {
-        uint16_t raw_soc = (rxData[0] << 8) | rxData[1];
-        battery_soc = raw_soc / 100.0;			//Divides by 100 to show %
+    if (rxHeader.StdId == 0x680) {
+        uuint8_t raw_soc = rxData[6];
+        battery_soc = raw_soc / 2;
     }
 }
 
